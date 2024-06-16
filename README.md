@@ -1,5 +1,9 @@
 # Project-Admin-Dashboard
 
+most imgs are frome here! : https://bandori.party/gallery/
+svgs are from here! : https://pictogrammers.com/library/mdi/
+
+live preview here! : 
 
 hi! this is admin dashboard.. practice for grid!
 
