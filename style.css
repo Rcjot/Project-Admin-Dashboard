@@ -17,6 +17,10 @@ body {
     height: 100vh;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     height: 100vh;
     display: grid;
@@ -52,6 +56,10 @@ body {
 }
 
 .icon {
+    max-width: min-content;
+    border: none;
+    color: white;
+    background-color: transparent;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -60,6 +68,34 @@ body {
 svg {
     fill: white;
     height: 30px;
+}
+
+.icon:hover, .topbar button:hover, .cardbuttons > svg:hover {
+    transform: scale(1.2);
+}
+.icon, .topbar button, .cardbuttons > svg{
+    transition: all 1s;
+    transform-origin: 50% 50%;
+}
+
+.cardbuttons > svg {
+    cursor: pointer;
+}
+
+.pfp:hover, .pfpnav:hover {
+    transform: scale(1.1);
+}
+.pfp, .pfpnav {
+    transition: all 1s;
+    transform: 50% 50%;
+}
+
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.4);;
+}
+
+.announcementcontent:hover  {
+    background-color: rgba(80, 80, 80, 0.1);
 }
 
 #logo {
@@ -72,6 +108,11 @@ svg {
     display: grid;
     grid-template-rows: 1.3fr 2fr;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navbar button {
+    border: none;
+    background-color: transparent;
 }
 
 
